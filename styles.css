@@ -35,7 +35,6 @@
 body {
     margin: 0;
     background: url("/images/backgroundheaderquality.png");
-    max-width: 100%;
     background-repeat: no-repeat;
     font-family: "Muller";
     overflow-x: hidden;
@@ -932,8 +931,6 @@ button:hover {
     body {
         background-size: 1119px 574px;
         background-position-x: -515px;
-        overflow-x: hidden;
-        overflow-y: visible; 
     }
 
     .title {
