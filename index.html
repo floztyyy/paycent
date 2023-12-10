@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Paycent</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <h4 class="navbar-title">Paycent</h4>
+        <ul class="navbar">
+            <li><a href="#" class="nav-obj">Кому подойдет</a></li>
+            <li><a href="#" class="nav-obj">Программа курса</a></li>
+            <li><a href="#" class="nav-obj">Контакты</a></li>
+            <li><a href="#" class="nav-contact">Связаться</a></li>
+            <!-- Adaptive -->
+            <li>
+                <button class="openMenu" id="openMenu">
+                    <div class="line1 lines" id="line1"></div>
+                    <div class="line2 lines" id="line2"></div>
+                    <div class="line3 lines" id="line3"></div>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="title">
+            Онлайн Практикум <br />
+            “Начинающий Трейдер”
+        </h1>
+        <p>
+            Станьте трейдером, познакомившись с фондовыми <br />
+            рынками и найдя свой рабочий к совершению сделок
+        </p>
+        <div class="buttons">
+            <button class="buy">
+                Записаться
+                <img src="icons/right-arrow.png" alt="right-arrow" class="course-arrow" />
+            </button>
+            <div class="expandb">
+                <button class="expand">
+                    <span class="arrow-down">></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- cards  -->
+    <sector class="cards">
+        <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+        <h2 class="cardsheader">Чему вы научитесь?</h2>
+
+        <div class="container">
+            <div class="card01 card">
+                <p class="count01 count">01</p>
+                <h2>
+                    Строить свою <br />
+                    стратегию торговли
+                </h2>
+                <div class="fleximg">
+                    <img src="icons/icon01.png" alt="icon01" class="icon01" />
+                </div>
+            </div>
+            <div class="card02 card">
+                <p class="count02 count">02</p>
+                <h2>
+                    Фильтровать <br />
+                    новостные источники <br />
+                    и видеть важную <br />
+                    информацию
+                </h2>
+                <div class="fleximg">
+                    <img src="icons/icon02.png" alt="icon02" class="icon02" />
+                </div>
+            </div>
+            <div class="card03 card">
+                <p class="count03 count">03</p>
+                <h2>
+                    Рассчитывать и <br />
+                    контролировать <br />
+                    риски, учитывая <br />
+                    психологический <br />
+                    аспект
+                </h2>
+                <div class="fleximg">
+                    <img src="icons/icon03.png" alt="icon03" class="icon03" />
+                </div>
+            </div>
+            <div class="card04 card">
+                <p class="count04 count">04</p>
+                <h2>
+                    Анализировать <br />
+                    стратегии других <br />
+                    трейдеров
+                </h2>
+                <div class="fleximg">
+                    <img src="icons/icon04.png" alt="icon04" class="icon04" />
+                </div>
+            </div>
+            <div class="card05 card">
+                <p class="count05 count">05</p>
+                <h2>
+                    Работать с торговыми <br />
+                    терминалами
+                </h2>
+                <div class="fleximg">
+                    <img src="icons/icon05.png" alt="icon05" class="icon05" />
+                </div>
+            </div>
+            <div class="card06 card">
+                <p class="count06 count">06</p>
+                <h2 id="editableTxt2">
+                    Соблюдать баланс <br />
+                    собственных и <br />
+                    заёмных средств
+                </h2>
+                <div class="fleximg">
+                    <img src="icons/icon06.png" alt="icon06" class="icon06" />
+                </div>
+            </div>
+            <div class="card07 card">
+                <p class="count07 count">07</p>
+                <h2 id="editableTxt1">
+                    Оценивать торговые <br />
+                    инструменты с <br />
+                    помощью <br />
+                    фундаментального и <br />
+                    технического анализа
+                </h2>
+                <div class="fleximg">
+                    <img src="icons/icon07.png" alt="icon07" class="icon07" />
+                </div>
+            </div>
+            <div class="card08 card">
+                <p class="count08 count">08</p>
+                <h2>
+                    Составлять торговый <br />
+                    план трейдера
+                </h2>
+                <div class="fleximg">
+                    <img src="icons/icon08.png" alt="icon08" class="icon08" />
+                </div>
+            </div>
+        </div>
+    </sector>
+
+    <!-- advantages  -->
+    <sector class="advantages">
+        <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+        <h2 class="advantages-header">
+            Преимущества <br />
+            трейдинга
+        </h2>
+
+        <article class="earn">
+            <img src="images/bitcoin-square.png" alt="bitcoin 3D square" class="bitcoin" />
+
+            <div class="earndiv">
+                <h2 class="earnheader sectionheader">Доход</h2>
+                <p class="earntxt sectiontxt">
+                    На бирже можно заработать большие <br />
+                    деньги без ограничений, если сравнивать <br />
+                    со средними зарплатами в компаниях, где <br />
+                    есть потолок, выше которого не заплатят <br />
+                    даже за качественную работу.
+                </p>
+            </div>
+        </article>
+        <img src="icons/arrownum1.png" alt="arrow" class="arrow1 arrow" />
+        <article class="location">
+            <h2 class="locationheader sectionheader">
+                Нет ограничений <br />
+                по локации
+            </h2>
+            <p class="locationtxt sectiontxt">
+                Работать можно из любой точки мира, хоть <br />
+                на пляже, если есть ноутбук и интернет.
+            </p>
+        </article>
+        <img src="icons/arrownum2.png" alt="arrow" class="arrow2 arrow" />
+        <article class="graphic">
+            <h2 class="graphicheader sectionheader">
+                Свободный <br />
+                график
+            </h2>
+            <p class="graphictxt sectiontxt">
+                Трейдер сам устанавливает комфортный <br />
+                режим работы и проводит торги, например, <br />
+                по утрам или, наоборот, вечером. А если не <br />
+                спится ночью или хочется подзаработать в <br />
+                выходные, можно выбрать рынок <br />
+                криптовалюты, который работает 24/7.
+            </p>
+        </article>
+        <img src="icons/arrownum3.png" alt="arrow" class="arrow3 arrow" />
+        <article class="freedom">
+            <h2 class="freedomheader sectionheader">
+                Свобода <br />
+                действий
+            </h2>
+            <p class="freedomtxt sectiontxt">
+                Никто не контролирует, не ограничивает, не <br />
+                оценивает. Сам себе ставишь задачу, сам <br />
+                выполняешь, сам критикуешь или хвалишь.
+            </p>
+        </article>
+        <img src="icons/arrownum4.png" alt="arrow" class="arrow4 arrow" />
+        <article class="start">
+            <h2 class="startheader sectionheader">
+                Для старта <br />
+                требуются <br />
+                только деньги
+            </h2>
+            <p class="start-txt sectiontxt">
+                Не нужно строить или арендовать офис, склад, <br />
+                искать сотрудников, выстраивать логистику, <br />
+                заниматься рекламой и прочей производственно- <br />
+                хозяйственной деятельностью.
+            </p>
+        </article>
+    </sector>
+
+    <!-- Trading info 
+    <sector class="tradinginfo">
+        <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+        <h2 class="tradinginfoheader">
+            Кому подойдет <br />
+            трейдинг?
+        </h2>
+
+        <div class="infocardiv">
+            <div class="infocards">
+                <div class="infocard1 infocard" id="infocard1">
+                    <p class="infocard-counter1 infocard-counter">01</p>
+                    <div class="infocard1header infocardheader">
+                        <h2 class="infocard1-header infocard-header">
+                            Новички в трейдинге
+                        </h2>
+                    </div>
+                    <p class="infocardtext1 infocardtext">
+                        Получите точку входа в трейдинг, изучив <br />
+                        главные азы системной и безубыточной торговли
+                    </p>
+                </div>
+                <div class="infocard2 infocard" id="infocard2">
+                    <p class="infocard-counter2 infocard-counter">02</p>
+                    <div class="infocard2header infocardheader">
+                        <h2 class="infocard2-header infocard-header">Предприниматели</h2>
+                    </div>
+                    <p class="infocardtext2 infocardtext">
+                        Обретите новый источник дохода, <br />
+                        диверсифицировав свой капитал
+                    </p>
+                </div>
+                <div class="infocard3 infocard" id="infocard3">
+                    <p class="infocard-counter3 infocard-counter">03</p>
+                    <div class="infocard3header infocardheader">
+                        <h2 class="infocard3-header infocard-header">Топ-менеджеры</h2>
+                    </div>
+                    <p class="infocardtext3 infocardtext">
+                        Освойте новую, независимую профессию, <br />
+                        которая даст новые возможности
+                    </p>
+                </div>
+                <div class="infocard4 infocard" id="infocard4">
+                    <p class="infocard-counter4 infocard-counter">04</p>
+                    <div class="infocard4header infocardheader">
+                        <h2 class="infocard4-header infocard-header">
+                            Трейдеры с опытом
+                        </h2>
+                    </div>
+                    <p class="infocardtext4 infocardtext">
+                        Отточите свои навыки и знания в трейдинге, <br />
+                        чтобы повысить уровень своей торговли
+                    </p>
+                </div>
+            </div>
+        </div>
+    </sector>
+
+        Result 
+    <sector class="result">
+        <article class="course-result">
+            <div class="circles result-circles">
+                <div class="circle1 circle-result"></div>
+                <div class="circle2 circle-result2"></div>
+            </div>
+            <h2 class="resultHeader">
+                Ваш результат <br />
+                после тренинга
+            </h2>
+
+            <div class="arrows">
+                <button class="arrow-left-box arrow-box">
+                    <img src="icons/arrow-left.png" alt="arrow-left" class="result-arrow-left" />
+                </button>
+                <button class="arrow-right-box arrow-box">
+                    <img src="icons/arrow-right.png" alt="arrow-right" class="result-arrow-right" />
+                </button>
+            </div>
+
+            <div class="slides">
+                <div class="slide1 slide">
+                    <img src="icons/iconslide1.png" alt="mac" class="slide-icon1 slide-icon" />
+                    <p class="slide-txt">
+                        Освоите 4 основополагающих <br />
+                        столпа трейдинга: уровни, <br />
+                        энергия рынка, точка входа и <br />
+                        направление рынка
+                    </p>
+                </div>
+                <div class="slide2 slide">
+                    <img src="icons/iconslide2.png" alt="layers" class="slide-icon1 slide-icon" />
+                    <p class="slide-txt">
+                        Создадите свой первый базовый <br />
+                        алгоритм – чек-лист с <br />
+                        пошаговыми действиями при <br />
+                        торговле на финансовых рынках
+                    </p>
+                </div>
+                <div class="slide3 slide">
+                    <img src="icons/iconslide3.png" alt="coins" class="slide-icon1 slide-icon" />
+                    <p class="slide-txt">
+                        Узнаете как распоряжаться своим <br />
+                        капиталом и эффективно <br />
+                        преувеличивать свой доход
+                    </p>
+                </div>
+                <div class="slide4 slide">
+                    <img src="icons/iconslide4.png" alt="bank" class="slide-icon1 slide-icon" />
+                    <p class="slide-txt">
+                        Поймете как торговать <br />
+                        с правильным соотношением <br />
+                        риска и прибыли
+                    </p>
+                </div>
+                <div class="slide5 slide">
+                    <img src="icons/iconslide5.png" alt="rocket" class="slide-icon1 slide-icon" />
+                    <p class="slide-txt">
+                        Обретете навыки трейдинга <br />
+                        и сможете совершать сделки <br />
+                        самостоятельно
+                    </p>
+                </div>
+            </div>
+        </article>
+    </sector>
+
+     Experience 
+    <sector class="experience">
+        <article class="experience-start">
+            <img src="images/circle-square.png" alt="circle in square 3D" />
+            <div class="start-text">
+                <h2 class="startheader sectionheader">
+                    Какой опыт <br />
+                    должен быть <br />
+                    на старте?
+                </h2>
+                <p class="startp sectiontxt">
+                    Тренинг рассчитан как на людей без опыта, так и <br />
+                    для тех, кто знаком с трейдингом. Вы получите все <br />
+                    основные навыки и знания для самостоятельной <br />
+                    торговли и управлением своим капиталом.
+                </p>
+            </div>
+        </article>
+    </sector>
+     Result cards 
+    <section class="resultCards">
+        <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+        <h2 class="result-cardsheader">Результат обучения</h2>
+        <div class="result-cards">
+            <div class="result-card1 result-card">
+                <p class="result-cards-counter">01</p>
+                <h2 class="resultcardheader">Навык</h2>
+                <p class="resultcardtext">
+                    Освоили навык торговли <br />
+                    криптовалютой по концепту <br />
+                    «умные деньги / Smart Money»
+                </p>
+            </div>
+            <div class="result-card2 result-card">
+                <p class="result-cards-counter">02</p>
+                <h2 class="resultcardheader">Разбор</h2>
+                <p class="resultcardtext">
+                    Получили поддержку менторов <br />
+                    и разбор ваших вопросов <br />
+                    в режиме лайв
+                </p>
+            </div>
+            <div class="result-card3 result-card">
+                <p class="result-cards-counter">03</p>
+                <h2 class="resultcardheader">Понимание</h2>
+                <p class="resultcardtext">
+                    Получили понимание структуры и механики <br />
+                    рынка, научились анализировать монеты <br />
+                    для внутридневной торговли
+                </p>
+            </div>
+            <div class="result-card4 result-card">
+                <p class="result-cardscounter4 result-cards-counter">04</p>
+                <h2 class="resultcardheader">Сделки</h2>
+                <p class="resultcardtext">
+                    Провели свои первые сделки <br />
+                    в трейдинге криптовалют <br />
+                    и вышли в плюс
+                </p>
+            </div>
+            <div class="result-card5 result-card">
+                <p class="result-cards-counter">05</p>
+                <h2 class="resultcardheader">Материалы</h2>
+                <p class="resultcardtext">
+                    Получили аналитику, видеозаписи <br />
+                    уроков и все дополнительные <br />
+                    материалы по курсу
+                </p>
+            </div>
+            <div class="result-card6 result-card">
+                <p class="result-cards-counter">06</p>
+                <h2 class="resultcardheader">Портфель</h2>
+                <p class="resultcardtext">
+                    Научились и знаете как отбирать <br />
+                    монеты в свой портфель на долгий <br />
+                    и короткий срок
+                </p>
+            </div>
+        </div>
+    </section>
+     More-advantages 
+    <section class="more-advantages">
+        <div class="circles">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+
+        <div class="moreadvantagescard-box">
+            <h2 class="moreadvantagesheader sectionheader">
+                Еще немного о <br />
+                преимуществах
+            </h2>
+            <div class="moreadvantagescards">
+                <div class="moreadvantagescard">
+                    <h2 class="moreadvantagescardheader">
+                        Записи с вами <br />
+                        навсегда
+                    </h2>
+                    <img src="icons/radius.png" alt="radar" class="moreadvantagesimg1 moreadvantagesimg" />
+                </div>
+                <div class="moreadvantagescard">
+                    <h2 class="moreadvantagescardheader">
+                        Записи занятий будут <br />
+                        всегда доступны <br />
+                        в личном кабинете.
+                    </h2>
+                    <img src="icons/iconfooter2.png" alt="?" class="moreadvantagesimg2 moreadvantagesimg" />
+                </div>
+                <div class="moreadvantagescard">
+                    <h2 class="moreadvantagescardheader">
+                        План развития <br />
+                        в профессии
+                    </h2>
+                    <img src="icons/iconfooter3.png" alt="?" class="moreadvantagesimg3 moreadvantagesimg" />
+                </div>
+                <div class="moreadvantagescard">
+                    <h2 class="moreadvantagescardheader">
+                        На бесплатном курсе <br />
+                        мы даем вам <br />
+                        практические навыки
+                        <br />
+                        для личностного роста.
+                    </h2>
+                    <img src="icons/iconfooter4.png" alt="?" class="moreadvantagesimg4 moreadvantagesimg" />
+                </div>
+            </div>
+        </div>
+    </section>
+     Footer 
+    <footer class="footer">
+        <div class="footer-course">
+            <div class="footer-text">
+                <p class="footertxt sectiontxt">Стоимость тренинга: бесплатно</p>
+                <h2 class="footerheader">
+                    Запишитесь на тренинг и в скором <br />
+                    времени мы отправим вам письмо, <br />
+                    где будет ссылка на тренинг.
+                </h2>
+                <h2 class="designer">
+                    <a href="https://aumidigital.github.io/EikoDigital/index.html" class="designer_portfolio">Дизайнер
+                        макета</a>
+                </h2>
+            </div>
+
+            <div class="userinfo">
+                <div class="first-row">
+                    <input type="text" class="username" placeholder="Имя" />
+                    <input type="text" class="user-telegram" placeholder="Телеграм" />
+                </div>
+
+                <div class="second-row">
+                    <button class="numberbutton" id="numberbutton">
+                        <span class="num" id="num">+7</span>
+                        <img src="icons/Polygon 1.png" alt=">" class="expand-menu" id="expand-menu" />
+                    </button>
+                    <div class="floatmenu" id="floatmenu">
+                        <ul>
+                            <li><button id="UA">+380</button></li>
+                            <li><button id="BY">+375</button></li>
+                            <li><button id="AM">+374</button></li>
+                            <li><button id="MD">+373</button></li>
+                            <li><button id="LV">+371</button></li>
+                            <li><button id="GE">+995</button></li>
+                            <li><button id="AZ">+994</button></li>
+                            <li><button id="KZ-RU">+7</button></li>
+                        </ul>
+                    </div>
+                    <input type="tel" class="tel" placeholder="Телефон" />
+                    <input type="email" class="email" placeholder="Почта" />
+                </div>
+                <button class="enroll-course">Записаться на курс</button>
+                <p class="politic sectiontxt">
+                    Нажимая на кнопку, я соглашаюсь на обработку персональных данных и
+                    <br />
+                    с правилами пользования Платформой
+                </p>
+            </div>
+        </div>
+
+        <div class="goto">
+            <div class="gotoCourse">
+                <h2 class="gotoHeader">ОБУЧАЙТЕСЬ СЕЙЧАС</h2>
+                <a href="#" class="gotoCourses"><img src="icons/Vector 10.png" alt="arrow right"
+                        class="goto-arrowRight" /></a>
+            </div>
+            <div class="line"></div>
+            <div class="contacts">
+                <ul class="apps">
+                    <li class="appsheader">Соц. сети</li>
+                    <li class="app1">
+                        <a href="https://dribble.com"> Dribbble</a>
+                    </li>
+                    <li class="app2">
+                        <a href="https://instagram.com">Instagram</a>
+                    </li>
+                    <li class="app3">
+                        <a href="https://github.com">Github</a>
+                    </li>
+                    <li class="app4">
+                        <a href="https://twitter.com">Twitter</a>
+                    </li>
+                    <li class="app5">
+                        <a href="https://youtube.com">YouTube</a>
+                    </li>
+                </ul>
+                <ul class="gmails">
+                    <li class="gmailsheader">Email</li>
+                    <li class="gmail">trade.school@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer> -->
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
